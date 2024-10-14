@@ -323,5 +323,15 @@ SELECT from dbo.
 SELECT * from hotels
 ```
 
+## Q1: IS THE HOTEL REVENUE GROWING YEARLY?
+In the dataset there is no revenue column but there is average daily rate (adr), stay_in_week_nights and stay_in_weekend_nights.
 
 
+```sql
+/*
+# Create a revenue column by using the adr, stay_in_weekend_nights and stay_in_week_nights.
+*/
+select ( stay_in_week_nights + stay_in_weekend_nights) * adr
+as revenue from hotels
+
+```
