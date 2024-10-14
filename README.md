@@ -1,4 +1,4 @@
-9# Hotel-Data-Analysis Project 
+# Hotel-Data-Analysis Project 
 
 ![something](Images/kaggle_to_powerbi.gif)
 
@@ -202,5 +202,25 @@ SELECT * from dbo.
 ['2020$']
 ```
 Data display.
+![Display](Images/Join.png)
+
+## Combining the data
+
+```sql
+/*
+# Combine the data of the 3 tables
+*/
+
+-- 1.
+SELECT * from dbo.
+['2018$']
+union
+SELECT * from dbo.
+['2019$']
+union
+SELECT * from dbo.
+['2020$']
+```
+## Result
 
 
