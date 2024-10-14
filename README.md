@@ -375,3 +375,35 @@ from hotels group by arrival_date_year, hotel
 ![demo](Images/22.png)
 
 Looking at the table above, there is enough space for parking. So, there is no need to increase parking lot size.
+
+# Create visualization using Power BI
+Now I will perform a:
+
+First Left Join: Combines the hotels table with the market_segment table by matching the market_segment column in the “hotels” table with the market_segment.market_segment column.
+
+Second Left Join: Combines the hotels table with the meal_cost table by matching the meal column in the hotels table and the meal_cost.meal column.
+
+```sql
+with hotels as(
+select * from dbo.['2018$']
+union
+select * from dbo.['2019$']
+union
+select * from dbo.['2020$'])
+
+select * from hotels
+left join dbo.market_segment$
+on hotels.market_segment = market_segment$.market_segment
+left join dbo.meal_cost$
+on meal_cost$.meal = hotels.meal
+```
+# Conclusion
+## Q3: WHAT TRENDS CAN WE SEE ON THE DATA?
+
+1.Revenue increased from 2018 to 2019, but it began to decrease from 2019 to 2020.
+2.The average daily rate (ADR) has increased from 2019 to 2020, from $99.53 to $104.47.
+3.Total number of nights booked by customers decreased from 2019 to 2020.
+4.The discount percentage offered by the hotel has increased from 2019 to 2020 to attract more customers.
+![details](Images/8.png)
+
+
