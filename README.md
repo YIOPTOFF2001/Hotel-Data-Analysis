@@ -1,4 +1,4 @@
-# Hotel-Data-Analysis Project 
+9# Hotel-Data-Analysis Project 
 
 ![something](Images/kaggle_to_powerbi.gif)
 
@@ -190,7 +190,7 @@ Images/20241014_113300.png)
 ```sql
 /*
 # 1. Select the required columns
-# 2. Extract the channel name from the 'NOMBRE' column
+# 
 */
 
 -- 1.
@@ -201,5 +201,6 @@ SELECT * from dbo.
 SELECT * from dbo.
 ['2020$']
 ```
+Data display.
 
 
