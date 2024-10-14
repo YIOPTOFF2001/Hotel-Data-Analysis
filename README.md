@@ -348,4 +348,14 @@ group by
 arrival_date_year
 
 ```
+![Image](Images/4.png)
+From the table above, I am able to see that the revenue increased from 2018 to 2019 but then decreased again in 2020.
 
+I will then determine the revenue by trend by grouping the hotel type data to see which hotel type has generated the most revenue
+
+```sql
+select 
+arrival_date_year, hotel,
+sum((stays_in_week_nights + stays_in_weekend_nights) * adr)
+as revenue from hotels group by arrival_date_year, hotel
+```
