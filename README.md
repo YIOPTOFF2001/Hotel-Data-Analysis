@@ -296,5 +296,32 @@ GROUP BY
 HAVING
     COUNT(*) > 1;
 ```
+# Exploratory Data Analysis
+ I am going to apply EDA on the data and try to answer the followinh question.
+ 1. Is the hotel revenue growing yearly?
+ 2. Should the team increase their parking lot size?
+ 3. What trend can be seen in the data?
+     Testing 
+- What data quality and validation checks are you going to create?
+
+Here are the data quality tests conducted:
+
+
+```sql
+/*
+# Create a temporary table with all the data combined.
+*/
+
+with hotels as ( select * from dbo.
+['2018$']
+union
+SELECT from dbo.
+['2019$']
+union
+SELECT from dbo.
+['2020$'])
+SELECT * from hotels
+```
+
 
 
