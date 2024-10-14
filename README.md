@@ -55,8 +55,8 @@ We need the hotel data for the years 2018 to 2020. The data should include metri
 
 
 - Where is the data coming from? 
-The data is sourced from Kaggle (an Excel extract), [see here to find it.](https://www.kaggle.com/datasets/bhavyadhingra00020/top-100-social-media-influencers-2024-countrywise?resource=download)
-
+The data is sourced from Kaggle (an Excel extract), [see here to find it.]
+(https://www.kaggle.com/datasets/bhavyadhingra00020/top-100-social-media-influencers-2024-countrywise?resource=download)
 
 # Stages
 
