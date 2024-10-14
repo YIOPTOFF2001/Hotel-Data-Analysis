@@ -362,3 +362,13 @@ as revenue from hotels group by arrival_date_year, hotel
 ![blah](Images/1.png)
 
 ## MUST THE TEAM INCREASE THE PARKING LOT SIZE?
+
+To answer the question, I will focus on the car_parking_space and number of guests staying in the hotel.
+```sql
+select
+arrival_date_year, hotel,
+sum((stays_in_week_nights + stays_in_weekend _nights) * adr) as renenue,
+concat (round((sum(required_car_parking_spaces)/sum(stays_in_week_nights +
+stays_in_weekend_nights)) * 100, 2), '%') as parking_percentage
+from hotels group by arrival_date_year, hotel
+```
