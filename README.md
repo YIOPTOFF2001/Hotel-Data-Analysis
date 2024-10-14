@@ -181,12 +181,25 @@ I will be creating a database in SQL Server Management Studio for futher analysi
 ![something](
 Images/20241014_113327.png)
 
-![something](Images/20241014_113558.png)
-
 ![something](
 Images/20241014_113300.png)
 
 # Querying the Data
 ## Exploring The Data
+
+```sql
+/*
+# 1. Select the required columns
+# 2. Extract the channel name from the 'NOMBRE' column
+*/
+
+-- 1.
+SELECT * from dbo.
+['2018$']
+SELECT * from dbo.
+['2019$']
+SELECT * from dbo.
+['2020$']
+```
 
 
