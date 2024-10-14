@@ -360,3 +360,5 @@ sum((stays_in_week_nights + stays_in_weekend_nights) * adr)
 as revenue from hotels group by arrival_date_year, hotel
 ```
 ![blah](Images/1.png)
+
+# SHOULD THE TEAM INCREASE THE PARKING LOT SIZE?
