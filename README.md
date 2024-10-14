@@ -401,8 +401,11 @@ on meal_cost$.meal = hotels.meal
 ## Q3: WHAT TRENDS CAN WE SEE ON THE DATA?
 
 1.Revenue increased from 2018 to 2019, but it began to decrease from 2019 to 2020.
+
 2.The average daily rate (ADR) has increased from 2019 to 2020, from $99.53 to $104.47.
+
 3.Total number of nights booked by customers decreased from 2019 to 2020.
+
 4.The discount percentage offered by the hotel has increased from 2019 to 2020 to attract more customers.
 ![details](Images/8.png)
 
