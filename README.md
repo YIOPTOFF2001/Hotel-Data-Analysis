@@ -372,3 +372,6 @@ concat (round((sum(required_car_parking_spaces)/sum(stays_in_week_nights +
 stays_in_weekend_nights)) * 100, 2), '%') as parking_percentage
 from hotels group by arrival_date_year, hotel
 ```
+![demo](Images/22.png)
+
+Looking at the table above, there is enough space for parking. So, there is no need to increase parking lot size.
