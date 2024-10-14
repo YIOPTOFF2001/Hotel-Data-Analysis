@@ -361,4 +361,4 @@ as revenue from hotels group by arrival_date_year, hotel
 ```
 ![blah](Images/1.png)
 
-# SHOULD THE TEAM INCREASE THE PARKING LOT SIZE?
+## MUST THE TEAM INCREASE THE PARKING LOT SIZE?
