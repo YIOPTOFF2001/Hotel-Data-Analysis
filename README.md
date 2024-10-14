@@ -335,3 +335,4 @@ select ( stay_in_week_nights + stay_in_weekend_nights) * adr
 as revenue from hotels
 
 ```
+![Image](Images/5.png)
