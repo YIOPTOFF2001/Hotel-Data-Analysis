@@ -74,12 +74,12 @@ https://www.kaggle.com/datasets/bhavyadhingra00020/top-100-social-media-influenc
 
 To understand what it should contain, we need to figure out what questions we need the dashboard to answer:
 
-1. Who are the top 10 YouTubers with the most subscribers?
-2. Which 3 channels have uploaded the most videos?
-3. Which 3 channels have the most views?
-4. Which 3 channels have the highest average views per video?
-5. Which 3 channels have the highest views per subscriber ratio?
-6. Which 3 channels have the highest subscriber engagement rate per video uploaded?
+1. When did the hotel make a profit or loss?
+2. Which year did the profit or loss occur?
+3. How much profit/loss was being made?
+4. Which hotel type is the most profitable?
+5. Which hotel typeis the least profitable?
+
 
 For now, these are some of the questions we need to answer, this may change as we progress down our analysis. 
 
@@ -91,9 +91,10 @@ For now, these are some of the questions we need to answer, this may change as w
 Some of the data visuals that may be appropriate in answering our questions include:
 
 1. Table
-2. Treemap
+2. Piechart
 3. Scorecards
-4. Horizontal bar chart 
+4. Horizontal bar chart
+   That might change as the analysis proceeds.
 
 ## Tools 
 
