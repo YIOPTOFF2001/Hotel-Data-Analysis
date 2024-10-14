@@ -178,7 +178,7 @@ And here is a tabular representation of the expected schema for the clean data:
 # Create A Database
 I will be creating a database in SQL Server Management Studio for futher analysis of the Hotel Booking Data.
 
-![something](Images/kaggle_to_powerbi.gif)
-
+![something](
+Images/20241014_113327.png)
 
 
