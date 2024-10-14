@@ -336,3 +336,16 @@ as revenue from hotels
 
 ```
 ![Image](Images/5.png)
+
+```sql
+/*
+# I'll use another column,annual_date_year from the data to calculate the sum of revenue while grouping the data by year.
+*/
+select arrival_date_year
+sum ((stay_in_week_nights * adr)
+as revenue from hotels
+group by
+arrival_date_year
+
+```
+
