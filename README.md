@@ -222,5 +222,6 @@ SELECT * from dbo.
 ['2020$']
 ```
 ## Result
+![pic](Images/A.png)
 
 
