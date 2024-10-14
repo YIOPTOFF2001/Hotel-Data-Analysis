@@ -224,4 +224,77 @@ SELECT * from dbo.
 ## Result
 ![pic](Images/A.png)
 
+# Testing 
+- What data quality and validation checks are you going to create?
+
+Here are the data quality tests conducted:
+
+## Row count check
+```sql
+/*
+# Count the total number of records (or rows) are in the SQL view
+*/
+
+SELECT
+    COUNT(*) AS no_of_rows
+FROM
+    dbo.;
+
+```
+## Column count check
+### SQL query 
+```sql
+/*
+# Count the total number of columns (or fields) are in the SQL view
+*/
+
+
+SELECT
+    COUNT(*) AS column_count
+FROM
+    INFORMATION_SCHEMA.COLUMNS
+WHERE
+    TABLE_NAME = 'dbo.'
+```
+## Data type check
+### SQL query 
+```sql
+/*
+# Check the data types of each column from the view by checking the INFORMATION SCHEMA view
+*/
+
+-- 1.
+SELECT
+    COLUMN_NAME,
+    DATA_TYPE
+FROM
+    INFORMATION_SCHEMA.COLUMNS
+WHERE
+    TABLE_NAME = 'dbo.';
+```
+## Duplicate count check
+### SQL query 
+```sql
+/*
+# 1. Check for duplicate rows in the view
+# 2. Group by the channel name
+# 3. Filter for groups with more than one row
+*/
+
+-- 1.
+SELECT
+   customer ,
+    COUNT(*) AS duplicate_count
+FROM
+    dbo.
+
+-- 2.
+GROUP BY
+    customer
+
+-- 3.
+HAVING
+    COUNT(*) > 1;
+```
+
 
